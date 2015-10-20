@@ -1,4 +1,4 @@
-function takeBugurt(){
+iofunction takeBugurt(){
                 var rawBugurt = document.getElementById('bugurt').value;
                 
                 if(rawBugurt.indexOf('[B]' && '[/B]') >-1 ){
@@ -25,16 +25,16 @@ var description = [
 var size = description.length
 var x = Math.floor(size*Math.random());
 document.getElementById('image1').src=description[x];
-document.getElementById('link1').value = "yellowkolobok.github.com/butthurt-helper" + "/" + description[x];
+document.getElementById('link1').value = "yellowkolobok.github.io/butthurt-helper" + "/" + description[x];
 var x = Math.floor(size*Math.random());
 document.getElementById('image2').src=description[x];
-document.getElementById('link2').value = "yellowkolobok.github.com/butthurt-helper" + "/" + description[x];
+document.getElementById('link2').value = "yellowkolobok.github.io/butthurt-helper" + "/" + description[x];
 var x = Math.floor(size*Math.random());
 document.getElementById('image3').src=description[x];
-document.getElementById('link3').value = "yellowkolobok.github.com/butthurt-helper" + "/" + description[x];
+document.getElementById('link3').value = "yellowkolobok.github.io/butthurt-helper" + "/" + description[x];
 var x = Math.floor(size*Math.random());
 document.getElementById('image4').src=description[x];
-document.getElementById('link4').value = "yellowkolobok.github.com/butthurt-helper" + "/" + description[x];
+document.getElementById('link4').value = "yellowkolobok.github.io/butthurt-helper" + "/" + description[x];
 
 var copyTextareaBtn = document.querySelector('.js-textareacopybtn');
 
