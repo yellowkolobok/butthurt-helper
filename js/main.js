@@ -1,4 +1,4 @@
-iofunction takeBugurt(){
+function takeBugurt(){
                 var rawBugurt = document.getElementById('bugurt').value;
                 
                 if(rawBugurt.indexOf('[B]' && '[/B]') >-1 ){
